@@ -3,8 +3,9 @@ name = "spyne-zeep-lab"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.9"
 dependencies = [
+    "six>=1.17.0",
     "spyne>=2.14.0",
     "werkzeug>=3.1.3",
     "zeep>=4.3.2",
